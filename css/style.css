@@ -1,0 +1,98 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color:  #323530;
+}
+
+
+.menu{
+    background-color: #323530;
+    width: 20%;
+    height: 50px;
+    text-align: right;
+}
+
+
+.menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li{
+    display: inline-block;
+}
+
+.menu ul li a{
+    color: white;
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+.menu ul li a:hover{
+    background-color: #4A9B16;
+}
+
+
+.perfil{
+    background-color: rgb(214, 214, 20);
+    height: 300px;
+    animation-name: animacion-perfil;
+    animation-duration: 3s;
+    position: relative;
+    display: flex;
+    margin-bottom: 30px;
+
+}
+
+
+@keyframes animacion-perfil{
+    0%{width: 20%;}
+    100%{width: 100%}
+}
+
+.foto-perfil{
+    width: 25%;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.info-personal{
+    background-color: #D0C12A;
+    height: 500px;
+    animation-name: animacion-info-personal;
+    animation-duration: 3s;
+}
+
+@keyframes animacion-info-personal{
+    0%{width: 100%;margin-left: 90%;}
+    100%{width: 100%;}
+}
+
+.lista-info-personal{
+    list-style-type: none;
+
+}
+
+.lista-info-personal li{
+    margin: 5px;
+}
+
+ul li strong{
+    padding-right: 5px;
+}
+
+h2{
+    text-align: center;
+    padding: 30px;
+}
+
+.lista-personal{
+    margin-left: 30%;
+}
+
+
+
+
+
